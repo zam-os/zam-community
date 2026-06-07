@@ -40,11 +40,15 @@ repos:
     link: false
 ```
 
-### 3. Run `/setup` in Claude Code or Gemini CLI
+### 3. Run the setup skill
 
 ```bash
 claude  # or: gemini
 # then: /setup
+
+# Codex:
+codex
+# then: $setup (or select setup through /skills)
 ```
 
 ### 4. Add beliefs, goals, and members
@@ -60,7 +64,7 @@ community's identity. Commit each change — the git history is your approval tr
      - url: github:your-org/zam-your-community
        role: member
    ```
-2. They run `/setup` in their personal instance — it reads the community config,
+2. They run the setup skill in their personal instance — it reads the community config,
    clones this repo and any listed source repos automatically.
 
 ## Supported platforms
@@ -75,6 +79,6 @@ community's identity. Commit each change — the git history is your approval tr
 ```bash
 npm install
 npx zam setup --force
-git add .claude/skills/zam/ .gemini/skills/zam/
+git add .claude/skills/zam/ .agent/skills/zam/ .agents/skills/zam/ AGENTS.md
 git commit -m "chore: update zam-core skill files"
 ```
