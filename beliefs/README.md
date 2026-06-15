@@ -8,7 +8,8 @@ the context of this community.
 
 A belief is a declarative statement the community stands behind. It is not a goal
 (something to achieve) or a rule (something to follow) — it is a premise that
-shapes how the community thinks and acts.
+shapes how the community thinks and acts. The chosen grounds and rules the
+community stands on live in [foundations](../foundations/); beliefs rest on them.
 
 Examples:
 - "Learning is most effective when it happens during real work, not in isolation."
